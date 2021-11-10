@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main #change-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 70%;
+  height: 300px;
+}
+
+#main #btn {
+  padding: 0.5rem 2.5rem;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+#main #btn:hover {
+  background: #ff2000;
+}
+/*# sourceMappingURL=main.css.map */
